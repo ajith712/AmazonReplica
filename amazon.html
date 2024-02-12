@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="styles/amazon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="amazon-header">
+      <div class="left">
+        <a href="D:\Atom\javascript\Amazon Project\amazon.html" class="header-link">
+          <img class="amazon-pic" src="images\header-pics\amazon-logo-white.png">
+          <img class="amazon-mob-pic" src="images\header-pics\amazon-mobile-logo-white.png">
+         </a>
+        </div>
+      <div class="mid">
+      <input class="searchbar" placeholder="Search"></input>
+      <button class="search-btn"><img class="search-icon" src="images\header-pics\search-icon.png" alt=""></button>
+      </div>
+      <div class="right">
+      <a class="return-order" href="order.html">
+      <span class="return">Returns</span>
+      <span class="order"> & Orders</span></a>
+      <a class="cart" href="checkout.html">
+        <img class="cart-pic"src="images\header-pics\cart-icon.png">
+      <div class="cart-quantity js-cart-quantity"></div>
+      <div class="cart-name">Cart</div></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="products-list-grid js-products-grid">
+
+      </section>
+    </main>
+    
+    <script src="scripts\amazon.js" type="module"></script>
+  </body>
+</html>
